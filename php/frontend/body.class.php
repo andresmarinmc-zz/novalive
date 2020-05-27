@@ -522,7 +522,7 @@ class Body
         </script>
     <?php
     } //fin Head
-    public function MostrarHeader()
+    public function MostrarHeader($inicio = 'current', $empresa = '', $insumos = '', $suplementos = '', $contacto = '')
     {
     ?>
         <div class="wrapper-container">
@@ -591,7 +591,7 @@ class Body
                                                 </div>
                                             </div>
                                             <h1 class="grid__item wide--one-third post-large--one-third large--one-third site-header__logo" itemscope itemtype="http://schema.org/Organization">
-                                                <a href="index.html" style="max-width: px;">
+                                                <a href="index.php" style="max-width: px;">
                                                     <img class="normal-logo" src="assets/logo.png?v=14697657111549854453" alt="Kure" itemprop="logo" />
                                                 </a>
                                             </h1>
@@ -676,35 +676,35 @@ class Body
                                             <div class="menu-tool">
                                                 <ul class="site-nav">
                                                     <li class=" ">
-                                                        <a href="index.html" class="current">
+                                                        <a href="index.php" class="<?= $inicio ?>">
                                                             <span>
                                                                 Inicio
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#empresa" class="">
+                                                        <a href="empresa.php" class="<?= $empresa ?>">
                                                             <span>
                                                                 Nuestra Empresa
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#shopify-section-1547016854059" class="">
+                                                        <a href="insumos.php" class="<?= $insumos ?>">
                                                             <span>
                                                                 Insumos y Medicamentos
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#empresa" class="">
+                                                        <a href="suplementos.php" class="<?= $suplementos ?>">
                                                             <span>
                                                                 Suplementos
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#contacto" class="">
+                                                        <a href="contacto.php" class="<?= $contacto ?>">
                                                             <span>
                                                                 Contacto
                                                             </span>
@@ -821,6 +821,77 @@ class Body
         </div>
     <?php
     }
+    public function MostrarInsumosMedicamentos()
+    {
+    ?>
+        <div id="shopify-section-1547016854059" class="shopify-section index-section">
+            <div data-section-id="1547016854059" data-section-type="home-product-grid-type-5" class="home-product-grid-type-5">
+                <div class="container">
+                    <div class="full_width_tab load-wrapper">
+                        <div class="section-header section-header--small wow fadeInDown animated">
+                            <div class="border-title">
+                                <h2 class="section-header__title" style="color: #222222;">
+                                    Insumos y Medicamentos
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="dt-sc-hr-invisible-small"></div>
+                        <div class="grid-uniform">
+                            <div class="grid__item">
+                                <ul class="type4__items">
+                                    <?php
+                                    $this->MostrarProducto("Gorro Médico", "pdt19_large.jpg");
+                                    $this->MostrarProducto("Bata Médica", "pdt4_large.jpg");
+                                    $this->MostrarProducto("Gel de Manos Antibacterial", "pdt7_large.jpg");
+                                    $this->MostrarProducto("Tapabocas Desechable", "pdt17_large.jpg");
+                                    $this->MostrarProducto("Cubierta Desechable para zapatos", "pdt18_large.jpg");
+                                    $this->MostrarProducto("Gafas Médicas", "pdt8_large.jpg");
+                                    $this->MostrarProducto("Guantes Médicos de Latex", "pdt15_large.jpg");
+                                    $this->MostrarProducto("Alcohol Antiséptico", "pdt1_large.jpg");
+                                    ?>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dt-sc-hr-invisible-small"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php
+    }
+    public function MostrarSuplementos()
+    {
+    ?>
+        <div id="shopify-section-1547016854059" class="shopify-section index-section">
+            <div data-section-id="1547016854059" data-section-type="home-product-grid-type-5" class="home-product-grid-type-5">
+                <div class="container">
+                    <div class="full_width_tab load-wrapper">
+                        <div class="section-header section-header--small wow fadeInDown animated">
+                            <div class="border-title">
+                                <h2 class="section-header__title" style="color: #222222;">
+                                    Suplementos
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="dt-sc-hr-invisible-small"></div>
+                        <div class="grid-uniform">
+                            <div class="grid__item">
+                                <ul class="type4__items">
+                                    <?php
+                                    $this->MostrarProducto("Suplemento One2max", "1.jpg");
+                                    $this->MostrarProducto("Suplemento One2max Core", "2.jpg");
+                                    $this->MostrarProducto("One2max Activador Inmunológico", "3.jpg");
+                                    ?>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dt-sc-hr-invisible-small"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php
+    }
     public function MostrarFooter()
     {
     ?>
@@ -830,7 +901,7 @@ class Body
                     <div class="grid__item wide--two-fifths post-large--two-fifths large--two-fifths medium--grid__item" style="position: relative; margin: 0; ">
                         <div class="footer-logo my_element">
                             <div class="footer_container">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img class="normal-footer-logo" src="files/kure-logo_200x.png?v=1551445618" alt="Kure" />
                                 </a>
                                 <p style="color: #444444; margin-bottom:0px; padding-bottom: 0px">

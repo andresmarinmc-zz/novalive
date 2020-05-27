@@ -373,7 +373,7 @@ $o = new Body();
                                         </div>
                                         <div class="form-group">
                                             <div class="controls">
-                                                <textarea id="message" rows="7" placeholder="Mensaje" class="form-control" required data-error="Write your message"></textarea>
+                                                <textarea id="message" rows="1" placeholder="Mensaje" class="form-control" required data-error="Write your message"></textarea>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
@@ -388,9 +388,10 @@ $o = new Body();
                                     <h3 class="big-title">Información de Contacto</h3>
                                     <div class="information">
                                         <div class="contact-datails">
-                                            <p> <span class="fa fa-map-marker-alt"></span> <strong>Dirección: </strong> Calle 53 No. 42-25 Oficina 211</p>
-                                            <p><span class="fa fa-phone"></span> <strong>Teléfono: </strong> 300 814 3673</p>
-                                            <p> <span class="fa fa-envelope"></span> <strong>Email:</strong> novalivepharma@gmail.com</p>
+                                            <br>
+                                            <p> <span class="fa fa-map-marker-alt"></span> <strong>Dirección </strong> <br>Calle 53 No. 42-25 Oficina 211</p>
+                                            <p><span class="fa fa-phone"></span> <strong>Teléfono </strong> <br>300 814 3673</p>
+                                            <p> <span class="fa fa-envelope"></span> <strong>Email </strong> <br>novalivepharma@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
