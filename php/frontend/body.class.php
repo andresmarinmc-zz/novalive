@@ -35,11 +35,11 @@ class Body
         <meta name="theme-color" content="#075ac9" />
 
         <!-- CSS ================================================== -->
-        <link href="assets/frame.scss.css?v=4661031277391475378" rel="stylesheet" type="text/css" media="all" />
-        <link href="assets/style.css?v=3180429196962786200" rel="stylesheet" type="text/css" media="all" />
-        <link href="assets/slick-theme.css?v=5245140885295570943" rel="stylesheet" type="text/css" media="all" />
-        <link href="assets/slick.scss.css?v=531589879924970029" rel="stylesheet" type="text/css" media="all" />
-        <link href="assets/slick-slider.css?v=18321913614120092278" rel="stylesheet" type="text/css" media="all" />
+        <link href="assets/frame.scss.css?v=46610312773914753781" rel="stylesheet" type="text/css" media="all" />
+        <link href="assets/style.css?v=31804291969627862001" rel="stylesheet" type="text/css" media="all" />
+        <link href="assets/slick-theme.css?v=52451408852955709431" rel="stylesheet" type="text/css" media="all" />
+        <link href="assets/slick.scss.css?v=5315898799249700291" rel="stylesheet" type="text/css" media="all" />
+        <link href="assets/slick-slider.css?v=183219136141200922781" rel="stylesheet" type="text/css" media="all" />
         <link href="assets/animate.css?v=17046942425478865338" rel="stylesheet" type="text/css" media="all" />
 
         <link href="assets/font-all.min.css?v=15722457319706631789" rel="stylesheet" type="text/css" media="all" />
@@ -556,7 +556,7 @@ class Body
                                             <div class="grid__item wide--one-third post-large--one-third large--one-third medium-down--hide">
                                                 <ul class="menu_bar_left grid__item">
                                                     <li class="phone_txt">
-                                                        <span>Email: info@novalive.com.co</span>
+                                                        <span>Email: novalivepharma@gmail.com</span>
                                                     </li>
                                                     <li class="notification_text">
                                                         <span>| Teléfonos: (5) 303 7851</span>
@@ -566,7 +566,7 @@ class Body
                                             <div class="grid__item wide--one-third post-large--one-third large--one-third medium--one-half small--one-half">
                                                 <ul class="menu_bar_left grid__item">
                                                     <li class="medium-down--hide phone_no">
-                                                        <span>Dirección: Cra 46 No. 96-212 Oficina 102 Barranquilla</span>
+                                                        <span>Dirección: Carrera 61 No. 74 - 177</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -995,14 +995,16 @@ class Body
                                         <div class="address">
                                             <p style="color: #ffffff;">
                                                 <i class="fa fa-home" style="background: #35c7df; color: #ffffff;"></i>
-                                                Dirección : Calle 53 No. 42-25 Oficina 211
+                                                Dirección : Carrera 61 No. 74 - 177
                                             </p>
                                             <p style="color: #ffffff;">
-                                                <i style="margin-top: 12px;background: #35c7df;color: #ffffff;" class="fa fa-phone"></i>Teléfono: 300 814 3673 <br />
+                                                <i style="background: #35c7df;color: #ffffff;" class="fa fa-phone"></i>
+                                                Teléfono: 300 814 3673
                                             </p>
                                         </div>
-                                        <p style="color: #ffffff; display: inline-block;"> Email:
-                                            <i style="background: #35c7df; color: #ffffff;" class="fa fa-envelope"></i>novalivepharma@gmail.com
+                                        <p style="color: #ffffff; display: inline-block;">
+                                            <i style="background: #35c7df; color: #ffffff;" class="fa fa-envelope"></i>
+                                            Email: novalivepharma@gmail.com
                                     </div>
                                 </div>
                                 <div class="footer-menu">

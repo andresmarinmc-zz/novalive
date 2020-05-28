@@ -168,7 +168,7 @@ $o = new Body();
                                     <div class="information">
                                         <div class="contact-datails">
                                             <br>
-                                            <p> <span class="fa fa-map-marker-alt"></span> <strong>Dirección </strong> <br>Calle 53 No. 42-25 Oficina 211</p>
+                                            <p> <span class="fa fa-map-marker-alt"></span> <strong>Dirección </strong> <br>Cra 46 #96-212 Of 102 - Carrera 61 No. 74 - 177</p>
                                             <p><span class="fa fa-phone"></span> <strong>Teléfono </strong> <br>300 814 3673</p>
                                             <p> <span class="fa fa-envelope"></span> <strong>Email </strong> <br>novalivepharma@gmail.com</p>
                                         </div>
