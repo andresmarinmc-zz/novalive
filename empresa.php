@@ -37,7 +37,7 @@ $o = new Body();
     <main class="main-content">
         <div class="grid-uniform">
             <div class="grid__item">
-                
+
                 <div class="clearfix"></div>
                 <div id="shopify-section-1547016755773" class="shopify-section index-section">
                     <div data-section-id="1547016755773" data-section-type="triangle-icon-block-a" class="triangle-icon-block-a" style="
@@ -67,7 +67,11 @@ $o = new Body();
                                             <div class="icon-content">
                                                 <h4 style="color: #222222;">Misión</h4>
                                                 <p class="desc" style="color: #444444;">
-                                                    Nuestra empresa está dirigida a solucionar las necesidades de las clínicas hospitales y centros de salud cubriendo todo lo necesario para su correcto funcionamiento manteniendo una enfoque muy humanitario teniendo el cuenta mejor calidad y mejor precio en todos nuestros servicios de productos
+                                                    crear oportunidades que generen bienestar, salud y expansión en las diferentes áreas de la salud, la ecomomia y la vida misma.
+                                                </p>
+                                                <h4 style="color: #222222; margin-top: 40px">Valores</h4>
+                                                <p class="desc" style="color: #444444;">
+                                                    Integridad, honestidad, transparencia, lealtad, conciencia, alegria, compasión y humildad.
                                                 </p>
                                             </div>
                                         </div>
@@ -85,7 +89,8 @@ $o = new Body();
                                             <div class="icon-content">
                                                 <h4 style="color: #222222;">Visión</h4>
                                                 <p class="desc" style="color: #444444;">
-                                                    Ser una empresa en el área de la salud donde nuestros productos y servicios cada vez apunte más a buscar soluciones en los problemas de salud de nuestra humanidad causando el menor choque posible en nuestros cuerpos analizados a través de productos omeopaticos y naturales buscando las fórmulas y realizando investigaciones científicas para contribuir al bienestar integral de cada individuo que use nuestros productos.
+                                                    Convertirnos en los próximos 5 años en una de las empresas más innovadoras del país en el sector médico, economico y social ,desarrollando productos y servicios que permitan a los seres volver a lo esencial, a prevenir desde lo natural y crear nuevas formas de relacionarse adecuadamente con el propio cuerpo, la mente y el medio ambiente.
+                                                    Crearemos cada día mayores oportunidades para que más seres tengan trabajos dignos y conciencia integral para crear vidas sanas, en abundancia y prosperidad.
                                                 </p>
                                             </div>
                                         </div>
@@ -95,7 +100,7 @@ $o = new Body();
                         </div>
                     </div>
                 </div>
-                
+
                 <div id="shopify-section-1547016927414" class="shopify-section index-section">
                     <div data-section-id="1547016927414" data-section-type="wide-banner-type-4" class="wide-banner-type-4">
                         <div class="grid-uniform">
@@ -168,7 +173,7 @@ $o = new Body();
                                     <div class="information">
                                         <div class="contact-datails">
                                             <br>
-                                            <p> <span class="fa fa-map-marker-alt"></span> <strong>Dirección </strong> <br>Cra 46 #96-212 Of 102 - Carrera 61 No. 74 - 177</p>
+                                            <p> <span class="fa fa-map-marker-alt"></span> <strong>Dirección </strong> <br>Carrera 61 No. 74 - 177</p>
                                             <p><span class="fa fa-phone"></span> <strong>Teléfono </strong> <br>300 814 3673</p>
                                             <p> <span class="fa fa-envelope"></span> <strong>Email </strong> <br>novalivepharma@gmail.com</p>
                                         </div>
@@ -268,8 +273,8 @@ $o = new Body();
         </div>
         <div style="margin-top: 150px !important;"></div>
     </main>
-    <?= $o->MostrarFooter() ?>    
-    <?= $o->CargarAssetsJS() ?>    
+    <?= $o->MostrarFooter() ?>
+    <?= $o->CargarAssetsJS() ?>
 </body>
 
 </html>
